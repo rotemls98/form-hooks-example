@@ -3,7 +3,6 @@ import { sleep } from "../utils/utils";
 export const checkIfExist = (id) => sleep(1000).then(() => id === '1');
 
 export const asyncValidate = (values) => {
-    console.log(1);
     return checkIfExist(values.id).then((exists) => {
         const errors = {};
         if (exists) {

@@ -11,7 +11,7 @@ const FormOne = () => {
     const { handleSubmit, handleChange, values } = useForm({ initialValues });
 
     const onSubmit = (values) => {
-        console.log(JSON.stringify(values));
+        console.log(values);
     }
 
     return (
