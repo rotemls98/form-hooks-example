@@ -3,7 +3,7 @@ import useForm from "./useForm";
 
 const FormOne = () => {
     const initialValues = {
-        firstName: '',
+        name: '',
         gender: 'male',
         digits: [1]
     };
